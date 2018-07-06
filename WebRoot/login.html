@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>登录 | MyBlog</title>
+
+<!-- Bootstrap core CSS -->
+<link href="http://getbootstrap.com/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="/Blog/css/floating-labels.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css1/component.css" />
+<style>
+.body {
+	background: url(img/demo-1-bg.jpg) no-repeat;
+	/*url 内放置为图片的路径地址*/
+	/*no-repeat 图片不平铺*/
+	background-size: cover;
+	/*图片自适应整个页面*/
+}
+</style>
+</head>
+
+
+<body background="img/demo-1-bg.jpg">
+	<div class="container1 demo-1">
+		<div class="content">
+			<div id="large-header" class="large-header">
+				<canvas id="demo-canvas"></canvas>
+				<div class="logo_box">
+					<h3>欢迎 你</h3>
+					<form class="form-signin" id="form" action="/Blog/LoginServlet"
+						method="post">
+						<div class="text-center mb-3">
+							<iframe frameborder="0" scrolling="no" src="typeface.html"
+								width="100%" height="200px"></iframe>
+							<p>
+								平常用于学习记录和交流的小博客<br />
+								<code>:View</code>
+								<a href="/Blog/load.html">游客模式请点击这里</a>
+							</p>
+						</div>
+
+						<div class="form-label-group">
+							<input type="text" id="input" class="form-control"
+								name="username" placeholder="用户名:" required autofocus> <label
+								for="input">用户名:</label>
+						</div>
+
+						<div class="form-label-group">
+							<input type="password" id="inputPassword" class="form-control"
+								name="password" placeholder="密码:" required> <label
+								for="inputPassword">密码</label>
+						</div>
+
+						<div class="checkbox mb-3">
+							<label> <input type="checkbox" value="remember-me">
+								Remember me
+							</label>
+						</div>
+						<button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
+						<p class="mt-5 mb-3 text-muted text-center">
+							&copy; 2018|备案号:<a href="http://www.miitbeian.gov.cn">皖ICP备18003221号</a> <a href="https://github.com/BlackmodeN"><img
+								src="/Blog/img/github.png" width="20px" height="20px"
+								class="img-circle">&nbsp;&nbsp;GitHub</a> &nbsp;| <a href="#">&nbsp;&nbsp;N</a>
+						</p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /container -->
+
+
+	<script src="js1/TweenLite.min.js"></script>
+	<script src="js1/EasePack.min.js"></script>
+	<script src="js1/rAF.js"></script>
+	<script src="js1/demo-1.js"></script>
+
+
+
+</body>
+</html>
