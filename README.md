@@ -2,6 +2,8 @@
 一个功能齐全的博客。
 包括文章，点赞，评论，登陆注册，排行。
 ## 版本
+##### 0.2version
+重构了前端样式，现在的博客更加好看简洁。自带文艺气息。
 ##### 0.1version
 没有使用框架，以后可能会重构
 主要使用了：
@@ -12,8 +14,9 @@ JSP-SERVLET-TOMCAT
 ## 上线效果地址
    [请点击这里](http://mykaleidoscope.xin/ "Blog") 
 ## 效果图
-![图1](https://github.com/BlackmodeN/JAVA-Blog/blob/master/WebRoot/img/01.png)
-![图2](https://github.com/BlackmodeN/JAVA-Blog/blob/master/WebRoot/img/02.png)
-![图3](https://github.com/BlackmodeN/JAVA-Blog/blob/master/WebRoot/img/03.png)
+![图1](https://github.com/BlackmodeN/ImgFond/blob/master/show/Blog1.png)
+![图2](https://github.com/BlackmodeN/ImgFond/blob/master/show/Blog2.png)
+![图3](https://github.com/BlackmodeN/ImgFond/blob/master/show/Blog3.png)
+![图3](https://github.com/BlackmodeN/ImgFond/blob/master/show/Blog4.png)
 
 
